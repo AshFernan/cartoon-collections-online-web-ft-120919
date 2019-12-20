@@ -24,20 +24,18 @@ def summon_captain_planet(planeteer_calls)
   planeteer_calls.map { |call| call.capitalize + '!' }
 end
 
-summon_captain_planet(planeteer_calls)
-
-# http://ruby-doc.org/core-2.1.0/Enumerable.html#method-i-any-3F
+  summon_captain_planet(planeteer_calls)
+  end
 
 def long_planeteer_calls(planeteer_calls)
   planeteer_calls.any? { |call| call.length > 4 }
 end
 
-long_planeteer_calls(planeteer_calls)
+  long_planeteer_calls(planeteer_calls)
+end
 
-
-# http://ruby-doc.org/core-2.1.0/Enumerable.html#method-i-find
-
-potentially_cheesy_items = %w[umbrella spinach cheddar helicopter]
+ potentially_cheesy_items = %w[umbrella spinach cheddar helicopter]
+end
 
 def find_the_cheese(potentially_cheesy_items)
   cheeses = %w[gouda cheddar camembert]
